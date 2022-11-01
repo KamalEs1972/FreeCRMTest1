@@ -44,7 +44,7 @@ public class TestBase {
 	//	System.setProperty("webdriver.chrome.driver", "E:\\QE Automation\\Drivers\\chromedriver.exe");	
 	//	driver = new ChromeDriver(); 
 			WebDriverManager.chromedriver().setup();
-	          driver = new ChromeDriver()
+	          driver = new ChromeDriver();
 		}
 		else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver", "/Users/naveenkhunteta/Documents/SeleniumServer/geckodriver");	
